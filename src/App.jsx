@@ -99,10 +99,10 @@ const App = () => {
             return (
               <div
                 key={item.id}
-                className="todo flex  justify-between   bg-blue-800 border border-gray-500 h-11 rounded-sm mt-3 px-3   "
+                className="todo flex  justify-between bg-blue-800  border border-gray-500 h-auto rounded-sm mt-3 px-3   "
               >
                 <div className="w-full flex items-center justify-between  "  >
-                  <div className="items-center mb-1.5 text-2xl max-w-75 text-white  " >{item.todo}</div>
+                  <div className="items-center mb-1.5 text-2xl  text-white  " >{item.todo}</div>
                   <div className="flex     ">
                    <div className="px-2 pt-1.5" >
                      <button
