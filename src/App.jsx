@@ -66,7 +66,7 @@ const App = () => {
    
       <div className="bg-blue-400 w-full h-full pt-5 pb-15 ">
         
-      <div className="  main bg-slate-200 hover:shadow-2xl hover:-translate-y-2 duration-300 mx-auto md:w-[40%] w-[80%] px-2 py-2  rounded-xl md:min-h-[90vh] min-h-[70vh]  ">
+      <div className="  main bg-slate-200 hover:shadow-2xl hover:-translate-y-2 duration-300 mx-auto md:w-[40%] lg:w-[90%]  xl:w-[40%] w-[80%] px-2 py-2  rounded-xl md:min-h-[90vh] min-h-[70vh]  ">
         <div className="text-center font-semibold text-3xl pt-5 text-gray-700  " >
          Manage yours all todo in one place 
        </div>
@@ -99,10 +99,10 @@ const App = () => {
             return (
               <div
                 key={item.id}
-                className="todo flex  justify-between bg-blue-800  border border-gray-500 h-auto rounded-sm mt-3 px-3   "
+                className="todo flex  justify-between bg-blue-800  border border-gray-500 h-auto rounded-sm mt-3 px-3 lg:mt-10 xl:mt-3 lg:h-auto    "
               >
                 <div className="w-full flex items-center justify-between  "  >
-                  <div className="items-center mb-1.5 text-2xl  text-white overflow-hidden   " >{item.todo}</div>
+                  <div className="items-center mb-1.5 text-2xl  text-white overflow-hidden    " >{item.todo}</div>
                   <div className="flex     ">
                    <div className="px-2 pt-1.5" >
                      <button
